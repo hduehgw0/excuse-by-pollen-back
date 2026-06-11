@@ -53,10 +53,10 @@ cp .env.sample .env
 
 | 変数名 | 内容 | 取得先 |
 |---|---|---|
-| `GEMINI_API_KEY` | Gemini API キー | Google AI Studio |
-| `POLLEN_API_KEY` | Google Pollen API キー | Google Cloud Console |
-| `UPSTASH_REDIS_REST_URL` | Upstash Redis の REST URL | Upstash コンソール |
-| `UPSTASH_REDIS_REST_TOKEN` | Upstash Redis のトークン | Upstash コンソール |
+| `GEMINI_API_KEY` | Gemini API キー | [Google AI Studio](https://aistudio.google.com/apikey) |
+| `POLLEN_API_KEY` | Google Pollen API キー | [Google Cloud Console](https://console.cloud.google.com/apis/library/pollen.googleapis.com) |
+| `UPSTASH_REDIS_REST_URL` | Upstash Redis の REST URL | [Upstash コンソール](https://console.upstash.com/) |
+| `UPSTASH_REDIS_REST_TOKEN` | Upstash Redis のトークン | [Upstash コンソール](https://console.upstash.com/) |
 
 その他の変数（`APP_MODULE` / `HOST` / `PORT`）はデフォルトのままで構いません。
 
