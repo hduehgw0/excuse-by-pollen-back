@@ -58,6 +58,8 @@ cp .env.sample .env
 | `UPSTASH_REDIS_REST_URL` | Upstash Redis の REST URL | Upstash コンソール |
 | `UPSTASH_REDIS_REST_TOKEN` | Upstash Redis のトークン | Upstash コンソール |
 
+その他の変数（`APP_MODULE` / `HOST` / `PORT`）はデフォルトのままで構いません。
+
 ## セットアップ・起動
 
 ### macOS / Linux
@@ -69,7 +71,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # 開発サーバーの起動
-PYTHONPATH=src .venv/bin/uvicorn app.main:app --reload
+PYTHONPATH=src uvicorn app.main:app --reload
 ```
 
 ### Windows (PowerShell)
